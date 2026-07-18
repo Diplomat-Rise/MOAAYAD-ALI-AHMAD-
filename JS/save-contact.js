@@ -4,14 +4,13 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:HUSSAM OUSAMA ASAAD 
+FN:MOAAYAD ALI AHMAD
 TITLE:Sales Manager
 ORG:RISE Properties
-TEL;TYPE=WORK,VOICE:+971589826204
-TEL;TYPE=WORK,VOICE:+971589826204
-EMAIL:Ahmed.Uzair@riseproperties.ae
+TEL;TYPE=WORK,VOICE:+971507641567
+EMAIL:moaayadbranch@riseproperties.ae
 URL:http://www.riseproperties.ae
-ADR;TYPE=WORK:;;PO Box No 181702, Office NO.1607, Opal Tower, Business Bay;Dubai;;UAE
+ADR;TYPE=WORK:;;PO Box No 181702, Office NO.1604, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
   `.trim();
 
@@ -20,7 +19,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'HUSSAM OUSAMA ASAAD.vcf';
+  a.download = 'MOAAYAD ALI AHMAD.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
